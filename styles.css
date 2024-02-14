@@ -1,0 +1,107 @@
+body {
+    background-color: #B9D3EE;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.header-container {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5cm 1cm;
+    width: 100%; 
+    z-index: 2;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo h1 {
+    margin: 0; 
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-button {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.main-container {
+    background-color: white;
+    padding: 1cm;
+    margin-top: 0;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    background-color: #EEEEEE;
+    color: black;
+    text-align: center;
+    padding: 0.5cm;
+    width: 100%; 
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.a1-card {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTloXEliocqWk7LyykzwnXbih1W1s_zFfjg&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+.koncentrat-card {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ902W0TyxQJJkrZ3Ejxfx8403d5lydwrjQ6Q&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.meteorologija-card {
+    background-image: url('https://www.hidmet.gov.rs/logo_new.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200% 100%;
+    color: white;
+
+}
+
+.unicredit-card {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-1RA_Rw6aL_VfFIFcq9E5Pm09OgHxIkyMA&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    color: black; 
+}
+
+.video-container {
+    position: relative;
+    
+    width: 40%;
+    height: 0;
+    padding-bottom: 28.28%; 
+}
+
+.video-container iframe {
+    margin-left: 11.5cm;
+    position: absolute;
+
+    width: 70%;
+    height: 60%;
+}
